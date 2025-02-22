@@ -20,7 +20,8 @@ m += x + y
 
 # Solve the model
 # m.solve() # ok
-# m.solve(solver=PULP_CBC_CMD()) # ng ??
-m.solve(solver=CPLEX()) # ok
+m.solve(solver=COIN_CMD()) # ok
+# m.solve(solver=PULP_CBC_CMD()) # ng (not available: check permissionと言われた)
+# m.solve(solver=CPLEX()) # ok
 # m.solve(solver=HiGHS()) # ok
 # m.solve(solver=GUROBI()) # ok
