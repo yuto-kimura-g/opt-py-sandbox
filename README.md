@@ -2,6 +2,10 @@
 
 Mathematical Optimization with Python: sandbox
 
+## Environment
+- Arm64 architecture (Apple Silicon M4 Pro chip)
+- Python@3.11
+
 ## Software
 ### Modeler
 - `COIN-OR/PuLP`
