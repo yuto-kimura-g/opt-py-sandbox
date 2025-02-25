@@ -2,10 +2,6 @@
 
 Mathematical Optimization with Python: sandbox
 
-## Environment
-- Arm64 architecture (Apple Silicon M4 Pro chip)
-- Python@3.11
-
 ## Software
 ### Modeler
 - `COIN-OR/PuLP`
@@ -36,6 +32,13 @@ Mathematical Optimization with Python: sandbox
   - docs: https://docs.gurobi.com/current/
 
 ## Verify
+### Environment
+- Arm64 architecture (Apple Silicon M4 Pro chip)
+- homebrew
+- Python@3.11
+- uv (see also [`pyproject.toml`](./pyproject.toml))
+
+### Result
 |Modeler|Solver|Status|
 |:-:|:-:|:-:|
 |`pulp`|`cbc`|o|
