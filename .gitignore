@@ -9,6 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
+# private
 src/cplex-examples/
 src/mip-examples/
 src/log/
+log/
+
