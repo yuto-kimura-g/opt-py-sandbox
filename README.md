@@ -45,21 +45,20 @@ Mathematical Optimization with Python: sandbox
 |`pulp`|`highs`|o|
 |`pulp`|`scip`|?|
 |`pulp`|`cplex`|o|
-|`pulp`|`gurobi`|o *2|
+|`pulp`|`gurobi`|o|
 |---|---|---|
 |`mip`|`cbc`|o|
 |`mip`|`highs`|o|
 |`mip`|`scip`|x *1|
 |`mip`|`cplex`|x *1|
-|`mip`|`gurobi`|?|
+|`mip`|`gurobi`|o|
 |---|---|---|
 |`pyscipopt`|`scip`|?|
-|`docplex`|`cplex`|o *3|
-|`gurobipy`|`gurobi`|o *2|
+|`docplex`|`cplex`|o *2|
+|`gurobipy`|`gurobi`|o|
 
 - o: 正常に動作した
 - x: エラーが発生した
 - ?: 未検証
 - *1: `we plan to support CPLEX/SCIP in the future` (https://github.com/coin-or/python-mip/blob/eb3dd63cf2e6dd632ec645997c2dc49e01af3e2b/mip/constants.py#L26, 2025/2/22閲覧)
-- *2: アカデミックライセンスでは未検証（pipで付いてきたサンプルで実行）
-- *3: pipの`cplex`が`<=python@3.10`な上に、uvだとexternally nmanagedと言ってくるので、brewでglobalに入れたpython@3.10で実行する必要がある
+- *2: pipの`cplex`が`<=python@3.10`な上に、uvだとexternally nmanagedと言ってくるので、brewでglobalに入れたpython@3.10で実行する必要がある
